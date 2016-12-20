@@ -139,16 +139,15 @@ section#one-s12 {
    background-color: #004970;
 }
 
-#fusee-s12 img{
-  width: 70%;
-  height: auto;
-}
-
 #fusee-s12{
   position: fixed;
   z-index: 100;
-  margin-right: 50%;
-  animation: rotate_f 30s infinite;
+  margin-right: 60%;
+  animation: rotate_f 20s infinite;
+}
+
+#fusee-s12 img{
+  width: 120%;
 }
 
 #controle {
@@ -185,10 +184,11 @@ section#one-s12 {
 }
 
 .planete{
-  margin-top: 55%;
-  float: left;
+  margin-top: 10%;
+  float: right;
+  margin-right: 10%;
   animation: rotate 60s infinite;
-  width: 85%;
+  width: 15%;
 }
 
 #people{
