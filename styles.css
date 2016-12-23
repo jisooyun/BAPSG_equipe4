@@ -61,92 +61,20 @@ section {
   }
 }
 
-/* SLIDE 11 */
+/* SLIDE 15 */
 
-section#one {
-  background: url("./img/space-bg.png") fixed no-repeat;
-  background-size: cover;
-}
-
-section#two {
-  opacity:0;
-  background-color: #004970;
-}
-
-section#three {
-  opacity:0;
-}
-
-section#four {
-  opacity:0;
-}
-
-#fusee img{
-  width:12%;
-  height:auto;
-  padding-top:12%;
-}
-
-#fusee2 img{
-  width:12%;
-  height:auto;
-  padding-top:12%;
-  float:left;
-}
-
-#fusee3 img{
-  width:12%;
-  height:auto;
-  padding-top:12%;
-  float:right;
-}
-
-#planete1 img{
-  padding-top:4%;
-  padding-left:4%;
-  width:20%;
-  height:auto;
-  bottom:50%;
-  float:left;
-  animation-name:rotate;
-  animation-duration:45s;
-  animation-iteration-count: infinite;
-}
-#planete2 img{
-  padding-top:3%;
-  width:20%;
-  height:auto;
-  bottom:50%;
-  float:right;
-  animation-name:rotateP;
-  animation-duration:60s;
-  animation-iteration-count: infinite;
-}
-#planete3 img{
-  padding-left:16%;
-  padding-top:2%;
-  width:13%;
-  height:auto;
-  bottom:50%;
-  animation-name:move;
-  animation-duration:25s;
-  animation-iteration-count: infinite;
-}
-
-/* SLIDE 12 */
-
-section#one-s12 {
+section#one-s15 {
    background-color: #004970;
 }
 
-#fusee-s12{
+#fusee-s15{
   position: fixed;
   z-index: 100;
   margin-right: 60%;
   animation: rotate_f 20s infinite;
 }
 
-#fusee-s12 img{
+#fusee-s15 img{
   width: 120%;
 }
 
@@ -207,7 +135,7 @@ section#one-s12 {
   margin-left: 90%;
 }
 
-/* SLIDE 13 */
+/* SLIDE 16 */
 
 @keyframes move {
   0% {
@@ -238,23 +166,23 @@ section#one-s12 {
   }
 }
 
-section#one-s13 {
+section#one-s16 {
   background-color: #004970;
 }
 
-section#two-s13 {
+section#two-s16 {
   opacity: 0;
 }
 
-section#three-s13 {
+section#three-s16 {
   opacity: 0;
 }
 
-section#four-s13 {
+section#four-s16 {
   opacity: 0;
 }
 
-#espace-s13{
+#espace-s16{
   opacity:0;
   background-image: url("img/fond_espace.png");
   background-size: cover;
@@ -270,7 +198,7 @@ section#four-s13 {
   animation-iteration-count: infinite;
 }
 
-#espace-s13 img{
+#espace-s16 img{
   margin-left: 100px;
   margin-top: 120px;
   width:60%;
@@ -291,41 +219,6 @@ section#four-s13 {
   margin-top: -100px;
 }
 
-#texte_s13{
+#texte-s16{
   font-size:3em;
 }
-
-/* SLIDE 13 BIS */
-
-/*#slide13bis{
-  height: auto;
-  background-image: url("img/fondespace-01.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#one-s13bis img{
-  margin-left: -350px;
-  margin-top: 100px;
-  width: 50%;
-  height: 50%;
-  animation: rotateplanete 60s infinite;
-}
-
-#two-s13bis img{
-  margin-bottom: 400px;
-  float: right;
-  width: 20%;
-  height: 20%;
-}
-
-@keyframes rotateplanete {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}*/
-
-
