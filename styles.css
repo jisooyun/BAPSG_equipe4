@@ -222,3 +222,32 @@ section#four-s16 {
 #texte-s16{
   font-size:3em;
 }
+
+/* SLIDE 17 */
+
+section#one-s17{
+  background-image: url("img/fond_espace.png");
+  background-size: cover;
+}
+
+#planete-s17{
+  margin-left: -900px;
+  width: 70%;
+  animation: rotate 300s infinite;
+}
+
+#fusee-s17{
+  margin-top: 200px;
+  float: right;
+  width: 20%;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
