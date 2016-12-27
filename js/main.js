@@ -125,7 +125,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller17 = new ScrollMagic.Controller();
 
-var DeplacementControler = TweenLite.fromTo("#fusee-s17", 1, {x: 500, y:1}, {x: -1100, y: 0, ease: Linear.easeNone})
+var DeplacementControler = TweenLite.fromTo("#fusee-s17", 1, {x: 500, y:1}, {x: -800, y: 0, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#two-s17",
