@@ -29,7 +29,7 @@ $("section").each(function() {
 
 var controller15 = new ScrollMagic.Controller();
 
-var DeplacementTexteFusee = TweenLite.fromTo("#texte_a", 1, {x: -500 }, {x: 50, ease: Linear.easeNone})
+var DeplacementTexteFusee = TweenLite.fromTo("#txt-s15", 1, {x: -500 }, {x: 20, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s15",
@@ -44,7 +44,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller15 = new ScrollMagic.Controller();
 
-var DeplacementControler = TweenLite.fromTo("#people-s15", 1, {x: 700, y:700}, {x: -110, y: -150, ease: Linear.easeNone})
+var DeplacementControler = TweenLite.fromTo("#people-s15", 1, {x: 700, y:700}, {x: -100, y: -50, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#two-s15",
@@ -59,12 +59,11 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller15 = new ScrollMagic.Controller();
 
-var DeplacementTexteControler = TweenLite.fromTo("#texte_b", 1, {x: 500}, {x: -10, ease: Linear.easeNone})
+var DeplacementTexteControler = TweenLite.fromTo("#txt2-s15", 1, {x: 500}, {x:-320, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
-    triggerElement: "#three-s12",
+    triggerElement: "#three-s15",
     duration: $(window).height(),
-    offset: -10,
     triggerHook: 0,
 })
 

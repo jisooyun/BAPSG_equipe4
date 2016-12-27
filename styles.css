@@ -64,18 +64,22 @@ section {
 /* SLIDE 15 */
 
 section#one-s15 {
-   background-color: #004970;
+  background-image: url("img/background-slide15.png");
+  background-size: 90%;
+  background-position: 200% 50%;
+  background-repeat: no-repeat;
 }
 
 #fusee-s15{
   position: fixed;
   z-index: 100;
+  margin-top: -40px;
   margin-right: 60%;
   animation: rotate_f 20s infinite;
 }
 
 #fusee-s15 img{
-  width: 120%;
+  width: 130%;
 }
 
 #control-s15 {
@@ -84,13 +88,13 @@ section#one-s15 {
 
 @keyframes rotate_f {
   0% {
-    transform: rotate(40deg);
+    transform: rotate(20deg);
   }
   50% {
-    transform: rotate(50deg);
+    transform: rotate(25deg);
   }
   100% {
-    transform: rotate(40deg);
+    transform: rotate(30deg);
   }
 }
 
@@ -120,19 +124,20 @@ section#one-s15 {
 }
 
 #people-s15{
-  width: 50%;
+  width: 40%;
   position: absolute;
 }
 
-#texte_a{
+#txt-s15{
   position: absolute;
-  font-size: 50pt;
+  font-size: 20pt;
   margin-left: 10%;
 }
 
-#texte_b{
-  font-size: 50pt;
-  margin-left: 90%;
+#txt2-s15{
+  font-size: 20pt;
+  margin-left: 120%;
+  width: 100%;
 }
 
 /* SLIDE 16 */
