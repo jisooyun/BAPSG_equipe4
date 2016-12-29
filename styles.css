@@ -174,7 +174,7 @@ section#one-s15 {
 section#one-s16 {
   background-image: url("img/background-slide16.png");
   background-size: 200%;
-    background-size: cover;
+  background-size: cover;
 }
 
 
@@ -242,13 +242,12 @@ section#one-s17{
   }
 }
 
-
-
 /* SLIDE 18 */
 
 section#one-s18 {
     background-image: url("img/background-slide18.png");
     background-size: cover;
+    height:100%;
 }
 
 #fusee-s18{
