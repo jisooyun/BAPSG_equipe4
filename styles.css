@@ -247,7 +247,6 @@ section#one-s17{
 section#one-s18 {
     background-image: url("img/background-slide18.png");
     background-size: cover;
-    height:100%;
 }
 
 #fusee-s18{
@@ -278,6 +277,7 @@ section#one-s19 {
 #fusee-s19 {
   width: 100px;
 }
+
 /* SLIDE 20 */
 
 section#one-s20 {
