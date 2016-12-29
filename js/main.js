@@ -321,3 +321,20 @@ var meteorites = new ScrollMagic.Scene({
 
 .setTween(DeplacementIt4)
 .addTo(controller19);
+
+//_______________ SLIDE 23 ____________________________________________________________________________________________
+
+// var controller23 = new ScrollMagic.Controller();
+
+// var DeplacementFusee = TweenLite.fromTo("#fusee-s23", 1, { y: -500}, { y: 0, ease: Linear.easeNone})
+
+// var Aterrisage = new ScrollMagic.Scene({
+//     triggerElement: "#one-s23",
+//     duration: $(window).height(),
+//     triggerHook: 0,
+// })
+
+// .setTween(DeplacementFusee)
+// .addTo(controller23);
+
+// ____________________________________________________________________________________________________________________
