@@ -174,21 +174,9 @@ section#one-s15 {
 section#one-s16 {
   background-image: url("img/background-slide16.png");
   background-size: 200%;
-  background-position: 40% 50%;
-  background-repeat: no-repeat;
+    background-size: cover;
 }
 
-section#two-s16 {
-  opacity: 0;
-}
-
-section#three-s16 {
-  opacity: 0;
-}
-
-section#four-s16 {
-  opacity: 0;
-}
 
 #espace-s16{
   opacity:0;
@@ -232,9 +220,9 @@ section#one-s17{
 }
 
 #planete-s17{
-  margin-left: -900px;
-  margin-top: 50px;
-  width: 70%;
+  float: left;
+  margin-top: 70px;
+  width: 50%;
   animation: rotate 300s infinite;
 }
 
@@ -284,6 +272,13 @@ section#one-s19 {
     background-size: cover;
 }
 
+#meteorites-s19{
+  width: 700px;
+}
+
+#fusee-s19 {
+  width: 100px;
+}
 /* SLIDE 20 */
 
 section#one-s20 {
@@ -311,3 +306,23 @@ section#one-s20 {
   margin-top: 200px;
   padding-bottom: 100px;
 }
+
+/* SLIDE 23 */
+
+section#one-s23 {
+    background-image: url("img/background-slide23.png");
+    background-size: cover;
+}
+
+#fusee-s23{
+  width: 400px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+
+}
+
+
+
+
+
