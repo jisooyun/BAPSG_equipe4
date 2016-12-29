@@ -234,7 +234,7 @@ var fusees19 = new ScrollMagic.Scene({
 
 var controller19 = new ScrollMagic.Controller();
 
-var DeplacementMeteorites = TweenLite.fromTo("#espace-s19", 1, {y:0, x:0}, {y:300, x:200})
+var DeplacementMeteorites = TweenLite.fromTo("#espace-s19", 1, {y:0, x:0}, {y:170, x:170})
 
 var meteorites = new ScrollMagic.Scene({
     triggerElement: "#one-s19",
@@ -243,4 +243,81 @@ var meteorites = new ScrollMagic.Scene({
 })
 
 .setTween(DeplacementMeteorites)
+.addTo(controller19);
+
+// ____________________________________________________________________________________________________________________
+
+
+var controller19 = new ScrollMagic.Controller();
+
+var DeplacementIt1 = TweenLite.fromTo("#fusee-it", 1, {y:-300, x:0}, {y:-300, x:-30, rotation:40})
+
+var meteorites = new ScrollMagic.Scene({
+    triggerElement: "#one-s19",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementIt1)
+.addTo(controller19);
+
+// ____________________________________________________________________________________________________________________
+
+
+var controller19 = new ScrollMagic.Controller();
+
+var DeplacementIt = TweenLite.fromTo("#fusee-it", 1, {y:-300, x:-30}, {y:-200, x:-100, rotation:50})
+
+var meteorites = new ScrollMagic.Scene({
+    triggerElement: "#two-s19",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementIt)
+.addTo(controller19);
+
+// ____________________________________________________________________________________________________________________
+
+var controller19 = new ScrollMagic.Controller();
+
+var DeplacementIt2 = TweenLite.fromTo("#fusee-it", 1, {y:-200, x:-100}, {y:-300, x:-200, rotation:90})
+
+var meteorites = new ScrollMagic.Scene({
+    triggerElement: "#three-s19",
+    duration: $(window).height()+300,
+    triggerHook: 0,
+})
+
+.setTween(DeplacementIt2)
+.addTo(controller19);
+
+// ____________________________________________________________________________________________________________________
+
+var controller19 = new ScrollMagic.Controller();
+
+var DeplacementIt3 = TweenLite.fromTo("#fusee-it", 1, {y:-300, x:-200}, {opacity:0})
+
+var meteorites = new ScrollMagic.Scene({
+    triggerElement: "#four-s19",
+    duration: 150,
+    triggerHook: 0,
+})
+
+.setTween(DeplacementIt3)
+.addTo(controller19);
+
+// ____________________________________________________________________________________________________________________
+
+var controller19 = new ScrollMagic.Controller();
+
+var DeplacementIt4 = TweenLite.fromTo("#explosion", 1, {y:-320, x:-320, opacity:0}, {opacity:1})
+
+var meteorites = new ScrollMagic.Scene({
+    triggerElement: "#four-s19",
+    duration: 150,
+    triggerHook: 0,
+})
+
+.setTween(DeplacementIt4)
 .addTo(controller19);
