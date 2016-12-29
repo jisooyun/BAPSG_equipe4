@@ -75,7 +75,7 @@ section#one-s15 {
   z-index: 100;
   margin-top: -40px;
   margin-right: 60%;
-  animation: rotate_f 20s infinite;
+  animation: rotate_f 10s infinite;
 }
 
 #fusee-s15 img{
@@ -94,7 +94,7 @@ section#one-s15 {
     transform: rotate(25deg);
   }
   100% {
-    transform: rotate(30deg);
+    transform: rotate(20deg);
   }
 }
 
@@ -252,6 +252,29 @@ section#one-s17{
   100% {
     transform: rotate(360deg);
   }
+}
+
+
+
+/* SLIDE 18 */
+
+section#one-s18 {
+    background-image: url("img/background-slide18.png");
+    background-size: cover;
+}
+
+#fusee-s18{
+  animation: rotate_f 10s infinite;
+  width: 80px;
+  margin-top: 5%;
+}
+
+#texte1-s18{
+  font-size:3em;
+}
+
+#texte2-s18{
+  font-size:3em;
 }
 
 /* SLIDE 19 */
