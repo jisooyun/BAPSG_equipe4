@@ -61,6 +61,17 @@ section {
   }
 }
 
+/* SLIDE 13 */
+
+section#one-s13 {
+  background-image: url("img/background-slide13.jpg");
+  background-size: cover;
+}
+
+#texte-s13 {
+  font-size: 3em;
+}
+
 /* SLIDE 15 */
 
 section#one-s15 {

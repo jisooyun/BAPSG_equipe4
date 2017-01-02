@@ -24,6 +24,35 @@ $("section").each(function() {
  
 });
 
+//_______________ SLIDE 13 ____________________________________________________________________________________________
+
+var controller13 = new ScrollMagic.Controller();
+
+var DeplacementControler13 = TweenLite.fromTo("#fusee-s13", 1, {x: 100, y: 210}, {x: -300, y: 90, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s13",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementControler13)
+.addTo(controller13);
+
+// ____________________________________________________________________________________________________________________
+
+var controller13bis = new ScrollMagic.Controller();
+
+var DeplacementControler13bis = TweenLite.fromTo("#texte-s13", 1, {x: 1500}, {x: 0, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s13",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementControler13bis)
+.addTo(controller13bis);
 //_______________ SLIDE 15 ____________________________________________________________________________________________
 
 
