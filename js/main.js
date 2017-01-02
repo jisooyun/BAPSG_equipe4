@@ -413,3 +413,18 @@ var Aterrisage = new ScrollMagic.Scene({
 
 .setTween(DeplacementControler22)
 .addTo(controller22);
+
+//_______________________________________________________________________________________________________________________
+
+var controller22 = new ScrollMagic.Controller();
+
+var DeplacementControler22 = TweenLite.fromTo("#texte-s22", 1, {x: 1000}, {x: 0, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s22",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementControler22)
+.addTo(controller22);
