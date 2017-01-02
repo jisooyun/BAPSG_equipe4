@@ -226,6 +226,13 @@ section#one-s17{
   animation: rotate 300s infinite;
 }
 
+#planete2-s17{
+  margin-left: 400px;
+  margin-top: 100px;
+  animation: rotate 100s infinite;
+  width: 8%
+}
+
 #fusee-s17{
   margin-top: 355px;
   float: right;
@@ -234,7 +241,6 @@ section#one-s17{
 
 #texte-s17 {
   font-size:3em;
-  text-align: center;
 }
 
 @keyframes rotate {
@@ -336,6 +342,24 @@ section#one-s20 {
 
 
 
+/* SLIDE 22 */
+
+section#one-s22 {
+  background-image: url("img/fond_espace.png");
+  background-size: cover;
+}
+#fusee-s22{
+  margin-top: 200px;
+  margin-left: 900px;
+}
+#planete1-s22 {
+  margin-left: -800px;
+}
+
+#texte-s22 {
+  font-size: 2.5em;
+
+}
 /* SLIDE 23 */
 
 section#one-s23 {
