@@ -428,6 +428,21 @@ var Fade20alien2 = new ScrollMagic.Scene({
 .setTween(FadePlanet20alien2)
 .addTo(controller20alien2);
 
+// ______________ SLIDE 21 ______________________________________________________________________________________________
+
+var controller21 = new ScrollMagic.Controller();
+
+var ZoomPlanet = TweenLite.fromTo("#planete-s21", 1, {scale:1}, {scale:3, rotation:-25, ease:Power3.easeInOut})
+
+var ZoomPlanete = new ScrollMagic.Scene({
+    triggerElement: "#one-s21",
+    duration: 4*$(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(ZoomPlanet)
+.addTo(controller21);
+
 // ______________ SLIDE 22 ______________________________________________________________________________________________
 
 var controller22 = new ScrollMagic.Controller();

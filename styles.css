@@ -72,6 +72,9 @@ section#one-s13 {
   font-size: 3em;
 }
 
+/* SLIDE 14 */
+
+
 /* SLIDE 15 */
 
 section#one-s15 {
@@ -357,7 +360,17 @@ section#one-s20 {
   }
 }
 
+/* SLIDE 21 */
 
+section#one-s21 {
+  background-image: url("img/background-slide21.png");
+  background-size: cover;
+}
+
+#planete-s21{
+  width:20%;
+  margin-top: 240px;
+}
 
 /* SLIDE 22 */
 
