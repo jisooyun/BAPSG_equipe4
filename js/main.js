@@ -266,7 +266,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller16people = new ScrollMagic.Controller();
 
-var DeplacementControler16people = TweenLite.fromTo("#people-s16", 1, {x: -1000, y: 450}, {x: -200, ease: Linear.easeNone})
+var DeplacementControler16people = TweenLite.fromTo("#people-s16", 1, {x: -1600, y: -20}, {x: -100, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s16",
@@ -328,7 +328,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller18bis = new ScrollMagic.Controller();
 
-var DeplacementControler3 = TweenLite.fromTo("#texte1-s18", 1, {x: -1000}, {x: 0, ease: Linear.easeNone})
+var DeplacementControler3 = TweenLite.fromTo("#texte1-s18", 1, {x: -1600}, {x: 0, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#two-s18",
