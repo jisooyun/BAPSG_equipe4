@@ -574,7 +574,7 @@ var ZoomPlanete = new ScrollMagic.Scene({
 
 var controller22 = new ScrollMagic.Controller();
 
-var DeplacementControler22 = TweenLite.fromTo("#fusee-s22", 1, {x: 500, y: -1000}, {x: -500, y: 230, ease: Linear.easeNone})
+var DeplacementControler22 = TweenLite.fromTo("#fusee-s22", 1, {x: 1000, y: -350}, {x: 0, y: -200, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s22",
@@ -590,7 +590,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller22 = new ScrollMagic.Controller();
 
-var DeplacementControler22 = TweenLite.fromTo("#texte-s22", 1, {x: 1000}, {x: 0, ease: Linear.easeNone})
+var DeplacementControler22 = TweenLite.fromTo("#texte-s22", 1, {x: 1400}, {x: 0, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s22",
