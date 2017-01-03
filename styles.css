@@ -1,22 +1,15 @@
 @font-face {
-    font-family: 'ubuntu_monoregular';
-    src: url('font/ubuntumono-r-webfont.woff2') format('woff2'),
-         url('font/ubuntumono-r-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ubuntubold';
-    src: url('font/ubuntu-b-webfont.woff2') format('woff2'),
-         url('font/ubuntu-b-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Myriad Pro';
+  src: url('MyriadPro-Regular.eot');
+  src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/MyriadPro-Regular.woff') format('woff'),
+    url('font/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html, body {
-  font-family: 'ubuntubold';
+  font-family: 'Myriad Pro';
   margin: 0 !important;
   padding: 0 !important;
   background-color: #222222;
