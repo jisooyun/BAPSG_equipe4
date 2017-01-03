@@ -188,19 +188,6 @@ var dispersion = new ScrollMagic.Scene({
 //_______________ SLIDE 15 ____________________________________________________________________________________________
 
 
-var controller15 = new ScrollMagic.Controller();
-
-var DeplacementTexteFusee = TweenLite.fromTo("#txt-s15", 1, {x: -450 }, {x: 0, ease: Linear.easeNone})
-
-var Aterrisage = new ScrollMagic.Scene({
-    triggerElement: "#three-s15",
-    duration: $(window).height(),
-    triggerHook: 0
-})
-
-.setTween(DeplacementTexteFusee)
-.addTo(controller15);
-
 // ____________________________________________________________________________________________________________________
 
 var controller15bis = new ScrollMagic.Controller();
@@ -211,6 +198,7 @@ var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s15",
     duration: $(window).height(),
     triggerHook: 0,
+	
 })
 
 .setTween(DeplacementControler)
@@ -218,19 +206,37 @@ var Aterrisage = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-var controller15ter = new ScrollMagic.Controller();
+var controller15txts15 = new ScrollMagic.Controller();
 
-var DeplacementTexteControler = TweenLite.fromTo("#txt2-s15", 1, {x: 500}, {x:-320, ease: Linear.easeNone})
 
-var Aterrisage = new ScrollMagic.Scene({
-    triggerElement: "#two-s15",
+
+var FadeTxt15sld15 = TweenLite.fromTo("#txt2-s15", 1, {x:0, opacity: 0}, {opacity:0.95, delay: 4, ease:Power1.easeInOut})
+
+var Fade20alien2 = new ScrollMagic.Scene({
+    triggerElement: "#one-s15",
     duration: $(window).height(),
+    offset: -10,
+    triggerHook: 0,
+	
+})
+
+.setTween(FadeTxt15sld15)
+.addTo(controller15txts15);
+
+
+var controller15txt2s15 = new ScrollMagic.Controller();
+
+var FadeTxt215sld15 = TweenLite.fromTo("#txt-s15", 1, {x:0, opacity: 0}, {opacity:0.95, delay: 40, ease:Power1.easeInOut})
+
+var Fade20alien2 = new ScrollMagic.Scene({
+    triggerElement: "#one-s15",
+    duration: $(window).height(),
+    offset: -10,
     triggerHook: 0,
 })
 
-.setTween(DeplacementTexteControler)
-.addTo(controller15ter);
-
+.setTween(FadeTxt215sld15)
+.addTo(controller15txt2s15);
 
 
 //_______________ SLIDE 16 ____________________________________________________________________________________________
@@ -585,6 +591,7 @@ var Fade20alien2 = new ScrollMagic.Scene({
 
 .setTween(FadePlanet20alien2)
 .addTo(controller20alien2);
+
 
 // ______________ SLIDE 21 ______________________________________________________________________________________________
 
