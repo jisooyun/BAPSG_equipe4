@@ -17,6 +17,7 @@
 
 html, body {
   font-family: 'ubuntubold';
+  font
   margin: 0 !important;
   padding: 0 !important;
   background-color: #222222;
@@ -88,7 +89,7 @@ section#one-s13 {
 }
 
 #texte-s13 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 /* SLIDE 14 */
@@ -112,6 +113,10 @@ section#one-s14 {
   float:right;
   padding-right:13%;
   animation: move 20s infinite;
+}
+
+#texte-s14 {
+  font-size: 2.5em;
 }
 
 /* SLIDE 15 */
@@ -224,12 +229,23 @@ section#one-s15 {
   }
 }
 
+#texte1-s16, #texte2-s16 {
+  font-size: 2.5em;
+}
+
+#texte1-s16 {
+  margin-top: 1vh;
+}
+
+#texte2-s16 {
+  margin-top: 80vh;
+}
+
 section#one-s16 {
   background-image: url("img/background-slide16.png");
   background-size: 200%;
   background-size: cover;
 }
-
 
 #espace-s16{
   opacity:0;
@@ -243,7 +259,7 @@ section#one-s16 {
 
 #espace-s16 img{
   margin-left: 10vw;
-  margin-top: 30%;
+  margin-top: 5vh;
   width:80%;
   position:absolute;
 }
@@ -259,11 +275,7 @@ section#one-s16 {
   position: absolute;
   width:30%;
   margin-left: -60%;
-  margin-top: 200px;
-}
-
-#texte-s16{
-  font-size:3em;
+  margin-top: 20vh;
 }
 
 /* SLIDE 17 */
@@ -293,9 +305,7 @@ section#one-s17{
 }
 
 #texte-s17 {
-  font-size:3em;
-  margin-right: 200px;
-
+  font-size:2.5em;
 }
 
 @keyframes rotate {
@@ -316,16 +326,16 @@ section#one-s18 {
 
 #fusee-s18{
   animation: rotate_f 10s infinite;
-  width: 80px;
-  margin-top: 5%;
+  width: 60px;
+  margin-top: 25vh;
 }
 
 #texte1-s18{
-  font-size:3em;
+  font-size:2.5em;
 }
 
 #texte2-s18{
-  font-size:3em;
+  font-size:2.5em;
 }
 
 /* SLIDE 19 */
