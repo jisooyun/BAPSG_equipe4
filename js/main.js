@@ -386,6 +386,22 @@ var Aterrisage = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
+
+var controller23 = new ScrollMagic.Controller();
+
+var DeplacementFusee = TweenLite.fromTo("#fusee2-s23", 1, { opacity: 0}, { opacity: 0})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s23",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementFusee)
+.addTo(controller23);
+
+
+
 var controller23 = new ScrollMagic.Controller();
 
 var DeplacementFusee = TweenLite.fromTo("#fusee2-s23", 1, { opacity: 0, y: -300}, { opacity: 1, y: 200})
@@ -398,6 +414,8 @@ var Aterrisage = new ScrollMagic.Scene({
 
 .setTween(DeplacementFusee)
 .addTo(controller23);
+
+
 
 // ____________________________________________________________________________________________________________________
 
@@ -511,7 +529,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller23bis = new ScrollMagic.Controller();
 
-var DeplacementAstro = TweenLite.fromTo("#astronaute-s23", 1, { opacity: 0, y: 200, x: -400}, { opacity: 1, y: 0, x:0, ease: Linear.easeNone})
+var DeplacementAstro = TweenLite.fromTo("#astronaute-s23", 1, { opacity: 0, y: -400, x: -400}, { opacity: 1, y: 0, x:0, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#two-s23",
