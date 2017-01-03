@@ -1,8 +1,27 @@
+@font-face {
+    font-family: 'ubuntu_monoregular';
+    src: url('font/ubuntumono-r-webfont.woff2') format('woff2'),
+         url('font/ubuntumono-r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('font/ubuntu-b-webfont.woff2') format('woff2'),
+         url('font/ubuntu-b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body {
+  font-family: 'ubuntubold';
   margin: 0 !important;
   padding: 0 !important;
   background-color: #222222;
 }
+
 
 h1 {
   padding: 20% 0 0 0;
