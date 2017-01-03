@@ -445,19 +445,6 @@ var Aterrisage = new ScrollMagic.Scene({
 // ____________________________________________________________________________________________________________________
 
 
-var controller23 = new ScrollMagic.Controller();
-
-var DeplacementFusee = TweenLite.fromTo("#fusee2-s23", 1, { opacity: 0}, { opacity: 0})
-
-var Aterrisage = new ScrollMagic.Scene({
-    triggerElement: "#one-s23",
-    duration: $(window).height(),
-    triggerHook: 0,
-})
-
-.setTween(DeplacementFusee)
-.addTo(controller23);
-
 
 
 var controller23 = new ScrollMagic.Controller();
@@ -473,22 +460,6 @@ var Aterrisage = new ScrollMagic.Scene({
 .setTween(DeplacementFusee)
 .addTo(controller23);
 
-
-
-// ____________________________________________________________________________________________________________________
-
-var controller23 = new ScrollMagic.Controller();
-
-var DeplacementFusee = TweenLite.fromTo("#fusee2-s23", 1, { opacity: 1}, { opacity: 0})
-
-var Aterrisage = new ScrollMagic.Scene({
-    triggerElement: "#six-s23",
-    duration: $(window).height(),
-    triggerHook: 0,
-})
-
-.setTween(DeplacementFusee)
-.addTo(controller23);
 
 // ____________________________________________________________________________________________________________________
 
