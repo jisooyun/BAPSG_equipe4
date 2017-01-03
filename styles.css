@@ -86,12 +86,12 @@ section {
 
 section#one-s13 {
   background-image: url("img/background-slide13.png");
-  background-size: 95%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 #people1-s13 {
-width: 10%;
+width: 15%;
 }
 
 #texte-s13 {
@@ -99,7 +99,7 @@ width: 10%;
 }
 
 #people2-s13 {
-width: 10%;
+width: 15%;
 }
 
 
@@ -468,7 +468,9 @@ section#one-s22 {
 
 }
 #planete1-s22 {
+	margin-top: -600px;
   margin-left: -800px;
+	width:97%;
 }
 
 #texte-s22 {
