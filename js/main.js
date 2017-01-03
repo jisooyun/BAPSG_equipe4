@@ -96,7 +96,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-var DeplacementFusee992 = TweenLite.fromTo("#fusee", 1, {x: 150}, {rotation: -20, scale: 0.1, y: -290, x: 50, ease: Linear.easeNone})
+var DeplacementFusee992 = TweenLite.fromTo("#fusee", 1, {x: 150}, {rotation: -20, scale: 0.0, y: -290, x: 50, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#two-s99",
@@ -105,6 +105,32 @@ var Aterrisage = new ScrollMagic.Scene({
 })
 
 .setTween(DeplacementFusee992)
+.addTo(controller99);
+
+// ____________________________________________________________________________________________________________________
+
+var DeplacementFusee993 = TweenLite.fromTo("#fusee1-s99", 1, {y: 1200}, {scale: 0.5, y: -300, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s13",
+    duration:6*$(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementFusee993)
+.addTo(controller99);
+
+// ____________________________________________________________________________________________________________________
+
+var DeplacementFusee994 = TweenLite.fromTo("#fusee2-s99", 1, {x: 200, y: 1200}, {scale: 0.5, y: -300, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s13",
+    duration:6*$(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementFusee994)
 .addTo(controller99);
 
 //_______________ SLIDE 14 ____________________________________________________________________________________________
@@ -303,11 +329,11 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller17 = new ScrollMagic.Controller();
 
-var DeplacementControler2 = TweenLite.fromTo("#fusee-s17", 0.5, {x: 500, y:1}, {x: -550, y: -200, ease:Power3.easeInOut})
+var DeplacementControler2 = TweenLite.fromTo("#fusee-s17", 0.5, {x: 500, y:1}, {x: -550, y: -200, ease:Power1.easeInOut})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#three-s17",
-    duration: $(window).height(),
+    duration: 2*$(window).height(),
     triggerHook: 0,
 })
 

@@ -105,7 +105,7 @@ width: 15%;
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(5deg);
   }
 }
 
@@ -152,33 +152,29 @@ section#three-s99 {
 }
 
 #fusee1-s99 img{
-  width:8%;
-  height:auto;
-  padding-top:12%;
-  float:left;
-  z-index:9999;
+  margin-left: -70vw;
+  margin-top: -50vh;
+  width: 100px;
 }
 
 #fusee2-s99 img{
-  width:8%;
-  height:auto;
-  padding-top:12%;
-  float:right;
-  z-index:9999;
-
+  margin-left: 70vw;
+  margin-top: -50vh;
+  width: 100px;
 }
 
 #planete1 img{
   padding-top:4%;
-  padding-left:4%;
+  padding-left:10vw;
   width:20%;
   height:auto;
   bottom:50%;
   float:left;
   animation-name:rotate;
-  animation-duration:45s;
+  animation-duration:70s;
   animation-iteration-count: infinite;
 }
+
 #planete2 img{
   padding-top:3%;
   width:20%;
@@ -189,8 +185,9 @@ section#three-s99 {
   animation-duration:60s;
   animation-iteration-count: infinite;
 }
+
 #planete3 img{
-  padding-left:16%;
+  padding-left:-30vw;
   padding-top:2%;
   width:13%;
   height:auto;
@@ -211,6 +208,8 @@ section#three-s99 {
 section#one-s14 {
   background-image: url("img/fond_espace.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh !important;
 }
 
 #onde img{
@@ -503,12 +502,30 @@ section#one-s19 {
 
 /* SLIDE 20 */
 
+.fintechs-s20 {
+  position: absolute;
+  color: white;
+  margin-left: 47vw;
+  margin-top: 20vh;
+}
+
 section#one-s20 {
   background-image: url("img/slide20/background-slide20.png");
   background-size: 80%;
   background-position: 50% 110%;
   background-repeat: no-repeat;
   background-color: white;
+}
+
+.espace-slide20 {
+  width: 600px;
+  z-index: 1; 
+}
+
+#alien1-s20 {
+  margin-left: 22vw;
+  margin-top: 180px;
+  width: 20%;
 }
 
 #planete1-s20{
@@ -522,12 +539,6 @@ section#one-s20 {
   padding-bottom: 100px;
   margin-left: 50px;
   animation: rotate 60s infinite;
-}
-
-#alien1-s20 {
-  margin-left: -100px;
-  margin-top: 170px;
-  animation: rotate_f 10s infinite;
 }
 
 #alien2-s20 {
