@@ -21,6 +21,7 @@ html, body {
   margin: 0 !important;
   padding: 0 !important;
   background-color: #222222;
+  
 }
 
 
@@ -99,6 +100,10 @@ section#one-s14 {
   background-size: cover;
 }
 
+#onde img{
+  width:23%;
+}
+
 #satelitediv img{
   width:23%;
   margin-top:300px;
@@ -131,9 +136,8 @@ section#one-s15 {
 #fusee-s15{
   position: fixed;
   z-index: 100;
-  margin-top: -40px;
+  margin-top: 60px;
   margin-right: 60%;
-  animation: rotate_f 10s infinite;
 }
 
 #fusee-s15 img{
@@ -467,6 +471,39 @@ section#one-s23 {
 
 #fusee-s23{
   width: 400px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+
+}
+
+#fusee2-s23{
+  width: 50px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+  opacity: 0;
+
+}
+
+#nuage1{
+  width: 50px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+
+}
+
+#nuage2{
+  width: 50px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+
+}
+
+#nuage3{
+  width: 50px;
   float: left;
   margin-left: 20px;
   margin-top: 60px;
