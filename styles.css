@@ -455,7 +455,9 @@ section#one-s22 {
 
 }
 #planete1-s22 {
+	margin-top: -600px;
   margin-left: -800px;
+	width:97%;
 }
 
 #texte-s22 {
