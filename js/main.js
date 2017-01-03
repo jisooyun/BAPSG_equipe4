@@ -55,7 +55,6 @@ var Aterrisage = new ScrollMagic.Scene({
 .setTween(DeplacementControler13bis)
 .addTo(controller13bis);
 
-<<<<<<< HEAD
 // ____________________________________________________________________________________________________________________
 
 var controller13people1 = new ScrollMagic.Controller();
@@ -85,8 +84,6 @@ var Aterrisage = new ScrollMagic.Scene({
 
 .setTween(DeplacementControler13people2)
 .addTo(controller13people2);
-=======
->>>>>>> master
 
 //_______________ SLIDE 14 ____________________________________________________________________________________________
 
