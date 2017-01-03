@@ -86,12 +86,22 @@ section {
 
 section#one-s13 {
   background-image: url("img/background-slide13.png");
-  background-size: cover;
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+#people1-s13 {
+width: 13%;
 }
 
 #texte-s13 {
   font-size: 2.5em;
 }
+
+#people2-s13 {
+width: 13%;
+}
+
 
 /* SLIDE 14 */
 
@@ -138,6 +148,7 @@ section#one-s15 {
   z-index: 100;
   margin-top: 60px;
   margin-right: 60%;
+  animation: rotate_f 10s infinite;
 }
 
 #fusee-s15 img{
@@ -150,13 +161,13 @@ section#one-s15 {
 
 @keyframes rotate_f {
   0% {
-    transform: rotate(20deg);
+    transform: rotate(15deg);
   }
   50% {
-    transform: rotate(25deg);
+    transform: rotate(20deg);
   }
   100% {
-    transform: rotate(20deg);
+    transform: rotate(15deg);
   }
 }
 
@@ -369,8 +380,10 @@ section#one-s19 {
 
 section#one-s20 {
   background-image: url("img/slide20/background-slide20.png");
+  background-size: 80%;
+  background-position: 50% 110%;
+  background-repeat: no-repeat;
   background-color: white;
-  background-size: cover;
 }
 
 #planete1-s20{
@@ -510,4 +523,8 @@ section#one-s23 {
   margin-left: 20px;
   margin-top: 60px;
 
+}
+
+#astronaute-s23{
+  width: 40%;
 }
