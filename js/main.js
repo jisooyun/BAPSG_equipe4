@@ -107,19 +107,6 @@ var Aterrisage = new ScrollMagic.Scene({
 .setTween(DeplacementFusee992)
 .addTo(controller99);
 
-// ____________________________________________________________________________________________________________________
-
-var DeplacementFusee993 = TweenLite.fromTo("#fusee1-s99", 1, {x: 150}, {rotation: -20, scale: 0.1, y: -290, x: 50, ease: Linear.easeNone})
-
-var Aterrisage = new ScrollMagic.Scene({
-    triggerElement: "#three-s99",
-    duration: $(window).height(),
-    triggerHook: 0
-})
-
-.setTween(DeplacementFusee993)
-.addTo(controller99);
-
 //_______________ SLIDE 14 ____________________________________________________________________________________________
 
 var controller14 = new ScrollMagic.Controller();
