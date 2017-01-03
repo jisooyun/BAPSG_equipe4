@@ -380,8 +380,10 @@ section#one-s19 {
 
 section#one-s20 {
   background-image: url("img/slide20/background-slide20.png");
+  background-size: 80%;
+  background-position: 50% 110%;
+  background-repeat: no-repeat;
   background-color: white;
-  background-size: cover;
 }
 
 #planete1-s20{
