@@ -64,7 +64,7 @@ section {
 /* SLIDE 13 */
 
 section#one-s13 {
-  background-image: url("img/background-slide13.jpg");
+  background-image: url("img/background-slide13.png");
   background-size: cover;
 }
 
@@ -319,7 +319,8 @@ section#one-s19 {
 /* SLIDE 20 */
 
 section#one-s20 {
-  background-image: url("img/slide20/background-slide20.jpg");
+  background-image: url("img/slide20/background-slide20.png");
+  background-color: white;
   background-size: cover;
 }
 
