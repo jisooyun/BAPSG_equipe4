@@ -99,6 +99,10 @@ section#one-s14 {
   background-size: cover;
 }
 
+#onde img{
+  width:23%;
+}
+
 #satelitediv img{
   width:23%;
   margin-top:300px;
