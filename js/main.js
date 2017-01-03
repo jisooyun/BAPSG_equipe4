@@ -714,7 +714,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller23 = new ScrollMagic.Controller();
 
-var DeplacementFusee = TweenLite.fromTo("#nuage3", 1, { opacity: 0}, { opacity: 1})
+var DeplacementFusee = TweenLite.fromTo("#nuage3", 1, { opacity: -10}, { opacity: 1})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#three-s23",
