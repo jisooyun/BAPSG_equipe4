@@ -22,7 +22,7 @@ strong {
 }
 
 section {
-  height: 100%;
+  height: 100vh;
   color: white;
   position: relative;
   text-align: center;
