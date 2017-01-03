@@ -91,7 +91,7 @@ section#one-s13 {
 }
 
 #people1-s13 {
-width: 10%;
+width: 13%;
 }
 
 #texte-s13 {
@@ -99,7 +99,7 @@ width: 10%;
 }
 
 #people2-s13 {
-width: 10%;
+width: 13%;
 }
 
 
@@ -468,7 +468,9 @@ section#one-s22 {
 
 }
 #planete1-s22 {
+	margin-top: -600px;
   margin-left: -800px;
+	width:97%;
 }
 
 #texte-s22 {
