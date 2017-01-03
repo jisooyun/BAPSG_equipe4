@@ -17,9 +17,11 @@
 
 html, body {
   font-family: 'ubuntubold';
+  font
   margin: 0 !important;
   padding: 0 !important;
   background-color: #222222;
+  
 }
 
 
@@ -84,11 +86,16 @@ section {
 
 section#one-s13 {
   background-image: url("img/background-slide13.png");
-  background-size: cover;
+  background-size: 95%;
+  background-repeat: no-repeat;
 }
 
 #people1-s13 {
 width: 10%;
+}
+
+#texte-s13 {
+  font-size: 2.5em;
 }
 
 #people2-s13 {
@@ -101,6 +108,10 @@ width: 10%;
 section#one-s14 {
   background-image: url("img/fond_espace.png");
   background-size: cover;
+}
+
+#onde img{
+  width:23%;
 }
 
 #satelitediv img{
@@ -119,6 +130,10 @@ section#one-s14 {
   animation: move 20s infinite;
 }
 
+#texte-s14 {
+  font-size: 2.5em;
+}
+
 /* SLIDE 15 */
 
 section#one-s15 {
@@ -131,9 +146,8 @@ section#one-s15 {
 #fusee-s15{
   position: fixed;
   z-index: 100;
-  margin-top: -40px;
+  margin-top: 60px;
   margin-right: 60%;
-  animation: rotate_f 10s infinite;
 }
 
 #fusee-s15 img{
@@ -229,12 +243,23 @@ section#one-s15 {
   }
 }
 
+#texte1-s16, #texte2-s16 {
+  font-size: 2.5em;
+}
+
+#texte1-s16 {
+  margin-top: 1vh;
+}
+
+#texte2-s16 {
+  margin-top: 80vh;
+}
+
 section#one-s16 {
   background-image: url("img/background-slide16.png");
   background-size: 200%;
   background-size: cover;
 }
-
 
 #espace-s16{
   opacity:0;
@@ -248,7 +273,7 @@ section#one-s16 {
 
 #espace-s16 img{
   margin-left: 10vw;
-  margin-top: 30%;
+  margin-top: 5vh;
   width:80%;
   position:absolute;
 }
@@ -264,11 +289,7 @@ section#one-s16 {
   position: absolute;
   width:30%;
   margin-left: -60%;
-  margin-top: 200px;
-}
-
-#texte-s16{
-  font-size:3em;
+  margin-top: 20vh;
 }
 
 /* SLIDE 17 */
@@ -298,9 +319,7 @@ section#one-s17{
 }
 
 #texte-s17 {
-  font-size:3em;
-  margin-right: 200px;
-
+  font-size:2.5em;
 }
 
 @keyframes rotate {
@@ -321,16 +340,16 @@ section#one-s18 {
 
 #fusee-s18{
   animation: rotate_f 10s infinite;
-  width: 80px;
-  margin-top: 5%;
+  width: 60px;
+  margin-top: 25vh;
 }
 
 #texte1-s18{
-  font-size:3em;
+  font-size:2.5em;
 }
 
 #texte2-s18{
-  font-size:3em;
+  font-size:2.5em;
 }
 
 /* SLIDE 19 */
@@ -466,4 +485,41 @@ section#one-s23 {
   margin-left: 20px;
   margin-top: 60px;
 
+}
+
+#fusee2-s23{
+  width: 50px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+  opacity: 0;
+
+}
+
+#nuage1{
+  width: 50px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+
+}
+
+#nuage2{
+  width: 50px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+
+}
+
+#nuage3{
+  width: 50px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+
+}
+
+#astronaute-s23{
+  width: 40%;
 }
