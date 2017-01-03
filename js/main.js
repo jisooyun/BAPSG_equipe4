@@ -262,6 +262,21 @@ var Aterrisage = new ScrollMagic.Scene({
 .setTween(DeplacementTexte16bis)
 .addTo(controller16quatre);
 
+// ____________________________________________________________________________________________________________________
+
+var controller16people = new ScrollMagic.Controller();
+
+var DeplacementControler16people = TweenLite.fromTo("#people-s16", 1, {x: -1000, y: 450}, {x: -200, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s16",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementControler16people)
+.addTo(controller16people);
+
 
 //_______________ SLIDE 17 ____________________________________________________________________________________________
 
