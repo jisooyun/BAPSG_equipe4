@@ -84,6 +84,37 @@ var Aterrisage = new ScrollMagic.Scene({
 .setTween(DeplacementControler13people2)
 .addTo(controller13people2);
 
+//_______________ SLIDE 99 ____________________________________________________________________________________________
+
+var controller99 = new ScrollMagic.Controller();
+
+var DeplacementFusee991 = TweenLite.fromTo("#fusee", 1, {rotation: 60, x: 150}, {rotation: 0, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s99",
+    duration: $(window).height(),
+    triggerHook: 0
+})
+
+.setTween(DeplacementFusee991)
+.addTo(controller99);
+
+// ____________________________________________________________________________________________________________________
+
+
+var controller99 = new ScrollMagic.Controller();
+
+var DeplacementFusee992 = TweenLite.fromTo("#fusee", 1, {x: 150}, {rotation: -20, scale: 0.1, y: -290, x: 50, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#two-s99",
+    duration: $(window).height(),
+    triggerHook: 0
+})
+
+.setTween(DeplacementFusee992)
+.addTo(controller99);
+
 //_______________ SLIDE 14 ____________________________________________________________________________________________
 
 var controller14 = new ScrollMagic.Controller();
