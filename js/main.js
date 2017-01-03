@@ -1,7 +1,8 @@
+
 // Init ScrollMagic
 var ctrl = new ScrollMagic.Controller({
   globalSceneOptions: {
-    triggerHook: 'onLeave'
+    triggerHook: 'onLeave',
   }
 });
 
@@ -41,8 +42,6 @@ var Aterrisage = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-var controller13bis = new ScrollMagic.Controller();
-
 var DeplacementControler13bis = TweenLite.fromTo("#texte-s13", 1, {x: 1600}, {x: 0, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
@@ -52,11 +51,9 @@ var Aterrisage = new ScrollMagic.Scene({
 })
 
 .setTween(DeplacementControler13bis)
-.addTo(controller13bis);
+.addTo(controller13);
 
 // ____________________________________________________________________________________________________________________
-
-var controller13people1 = new ScrollMagic.Controller();
 
 var DeplacementControler13people1 = TweenLite.fromTo("#people1-s13", 1, {x: -1000, y: 350}, {x: -200, ease: Linear.easeNone})
 
@@ -67,11 +64,9 @@ var Aterrisage = new ScrollMagic.Scene({
 })
 
 .setTween(DeplacementControler13people1)
-.addTo(controller13people1);
+.addTo(controller13);
 
 // ____________________________________________________________________________________________________________________
-
-var controller13people2 = new ScrollMagic.Controller();
 
 var DeplacementControler13people2 = TweenLite.fromTo("#people2-s13", 1, {x: 1000, y:370}, {x: 130, ease: Linear.easeNone})
 
@@ -82,7 +77,7 @@ var Aterrisage = new ScrollMagic.Scene({
 })
 
 .setTween(DeplacementControler13people2)
-.addTo(controller13people2);
+.addTo(controller13);
 
 //_______________ SLIDE 99 ____________________________________________________________________________________________
 
@@ -93,16 +88,13 @@ var DeplacementFusee991 = TweenLite.fromTo("#fusee", 1, {rotation: 60, x: 150}, 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s99",
     duration: $(window).height(),
-    triggerHook: 0
+    triggerHook: 0,
 })
 
 .setTween(DeplacementFusee991)
 .addTo(controller99);
 
 // ____________________________________________________________________________________________________________________
-
-
-var controller99 = new ScrollMagic.Controller();
 
 var DeplacementFusee992 = TweenLite.fromTo("#fusee", 1, {x: 150}, {rotation: -20, scale: 0.1, y: -290, x: 50, ease: Linear.easeNone})
 
@@ -128,6 +120,12 @@ var Aterrisage = new ScrollMagic.Scene({
 })
 
 .setTween(DeplacementTexte14)
+.addTo(controller14);
+
+// ____________________________________________________________________________________________________________________
+
+var controller14onde = new ScrollMagic.Controller();
+
 var Onde = TweenLite.fromTo("#onde", 1, {x:-400, y:280, opacity:0, rotation:0}, {rotation:15, x:-100, opacity:1, ease: Linear.easeNone})
 
 var dispersion = new ScrollMagic.Scene({
@@ -137,11 +135,9 @@ var dispersion = new ScrollMagic.Scene({
 })
 
 .setTween(Onde)
-.addTo(controller14);
+.addTo(controller14onde);
 
 // ____________________________________________________________________________________________________________________
-
-var controller14 = new ScrollMagic.Controller();
 
 var Onde1 = TweenLite.fromTo("#onde", 1, {x:-100}, {opacity:0, ease: Linear.easeNone})
 
@@ -156,9 +152,6 @@ var dispersion = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-
-var controller14 = new ScrollMagic.Controller();
-
 var Onde2 = TweenLite.fromTo("#onde", 1, {x:-400, y:280, opacity:0, rotation:0}, {rotation:15, x:-100, opacity:1, ease: Linear.easeNone})
 
 var dispersion = new ScrollMagic.Scene({
@@ -168,11 +161,9 @@ var dispersion = new ScrollMagic.Scene({
 })
 
 .setTween(Onde2)
-.addTo(controller14);
+.addTo(controller14onde);
 
 // ____________________________________________________________________________________________________________________
-
-var controller14 = new ScrollMagic.Controller();
 
 var Onde3 = TweenLite.fromTo("#onde", 1, {x:-100}, {opacity:0, ease: Linear.easeNone})
 
@@ -183,14 +174,11 @@ var dispersion = new ScrollMagic.Scene({
 })
 
 .setTween(Onde3)
-.addTo(controller14);
+.addTo(controller14onde);
 
 //_______________ SLIDE 15 ____________________________________________________________________________________________
 
-
-// ____________________________________________________________________________________________________________________
-
-var controller15bis = new ScrollMagic.Controller();
+var controller15 = new ScrollMagic.Controller();
 
 var DeplacementControler = TweenLite.fromTo("#people-s15", 1, {x: 700, y:700}, {x: -100, y: -50, ease: Linear.easeNone})
 
@@ -202,13 +190,9 @@ var Aterrisage = new ScrollMagic.Scene({
 })
 
 .setTween(DeplacementControler)
-.addTo(controller15bis);
+.addTo(controller15);
 
 // ____________________________________________________________________________________________________________________
-
-var controller15txts15 = new ScrollMagic.Controller();
-
-
 
 var FadeTxt15sld15 = TweenLite.fromTo("#txt2-s15", 1, {x:0, opacity: 0}, {opacity:0.95, delay: 4, ease:Power1.easeInOut})
 
@@ -221,11 +205,10 @@ var Fade20alien2 = new ScrollMagic.Scene({
 })
 
 .setTween(FadeTxt15sld15)
-.addTo(controller15txts15);
+.addTo(controller15);
 
 // ____________________________________________________________________________________________________________________
 
-var controller15txt2s15 = new ScrollMagic.Controller();
 
 var FadeTxt215sld15 = TweenLite.fromTo("#txt-s15", 1, {x:0, opacity: 0}, {opacity:0.95, delay: 40, ease:Power1.easeInOut})
 
@@ -237,7 +220,7 @@ var Fade20alien2 = new ScrollMagic.Scene({
 })
 
 .setTween(FadeTxt215sld15)
-.addTo(controller15txt2s15);
+.addTo(controller15);
 
 
 //_______________ SLIDE 16 ____________________________________________________________________________________________
@@ -258,9 +241,6 @@ var Fade = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-
-var controller16bis = new ScrollMagic.Controller();
-
 var DeplacementTexteControler2 = TweenLite.fromTo("#texte-s16", 1, {x: 500}, {x: -10, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
@@ -269,6 +249,8 @@ var Aterrisage = new ScrollMagic.Scene({
     offset: -10,
     triggerHook: 0,
 })
+.setTween(DeplacementTexteControler2)
+.addTo(controller16);
 
 // ____________________________________________________________________________________________________________________
 

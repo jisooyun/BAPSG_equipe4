@@ -17,11 +17,9 @@
 
 html, body {
   font-family: 'ubuntubold';
-  font
   margin: 0 !important;
   padding: 0 !important;
   background-color: #222222;
-  
 }
 
 
@@ -207,6 +205,12 @@ section#three-s99 {
   animation-name:move;
   animation-duration:25s;
   animation-iteration-count: infinite;
+}
+
+#fusee1-s99 {
+  position: absolute;
+  width: 80%;
+  z-index: 9999;
 }
 
 /* SLIDE 14 */
