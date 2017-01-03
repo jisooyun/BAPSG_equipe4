@@ -95,11 +95,16 @@ width: 15%;
 }
 
 #texte-s13 {
-  font-size: 2.5em;
+	padding-top: 1%;
+  font-size: 2.2em;
 }
 
 #people2-s13 {
 width: 15%;
+}
+
+#fusee-s13{
+	
 }
 
 /* SLIDE 99 */
@@ -155,18 +160,21 @@ section#three-s99 {
   padding-top:12%;
 }
 
-#fusee2 img{
-  width:12%;
+#fusee1-s99 img{
+  width:8%;
   height:auto;
   padding-top:12%;
   float:left;
+  z-index:9999;
 }
 
-#fusee3 img{
-  width:12%;
+#fusee2-s99 img{
+  width:8%;
   height:auto;
   padding-top:12%;
   float:right;
+  z-index:9999;
+
 }
 
 #planete1 img{
@@ -230,6 +238,21 @@ section#one-s14 {
 
 #texte-s14 {
   font-size: 2.5em;
+}
+
+#bul1 img{
+  position: absolute;
+  width: 25%;
+  margin-top: 140px;	
+  left: 10%;
+  z-index: 3000;
+}
+#bul2 img{
+  position: absolute;
+  width: 25%;
+  margin-top: 10px;	
+  margin-left: 11%;
+  z-index: 3000;
 }
 
 /* SLIDE 15 */

@@ -223,13 +223,14 @@ var Fade20alien2 = new ScrollMagic.Scene({
 .setTween(FadeTxt15sld15)
 .addTo(controller15txts15);
 
+// ____________________________________________________________________________________________________________________
 
 var controller15txt2s15 = new ScrollMagic.Controller();
 
 var FadeTxt215sld15 = TweenLite.fromTo("#txt-s15", 1, {x:0, opacity: 0}, {opacity:0.95, delay: 40, ease:Power1.easeInOut})
 
 var Fade20alien2 = new ScrollMagic.Scene({
-    triggerElement: "#one-s15",
+    triggerElement: "#two-s15",
     duration: $(window).height(),
     offset: -10,
     triggerHook: 0,
