@@ -652,7 +652,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller23 = new ScrollMagic.Controller();
 
-var DeplacementFusee = TweenLite.fromTo("#fusee-s23", 1, { opacity: 0, y: -500}, { opacity: 1, y: 0, ease: Linear.easeNone})
+var DeplacementFusee = TweenLite.fromTo("#fusee-s23", 1, { opacity: 1, y: -150}, { opacity: 1, y: 0, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s23",
@@ -812,3 +812,17 @@ var Aterrisage = new ScrollMagic.Scene({
 
 .setTween(DeplacementFusee)
 .addTo(controller23);
+
+var controller23bul = new ScrollMagic.Controller();
+
+var FadeBul23sld23 = TweenLite.fromTo("#bravo", 1, {x:0, opacity: 0}, {opacity:0.95, delay: 3, ease:Power1.easeInOut})
+
+var Fade20alien2 = new ScrollMagic.Scene({
+    triggerElement: "#five-s23",
+    duration: $(window).height(),
+    offset: -10,
+    triggerHook: 0,
+})
+
+.setTween(FadeBul23sld23)
+.addTo(controller23bul);

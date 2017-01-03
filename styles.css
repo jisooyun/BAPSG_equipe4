@@ -615,6 +615,19 @@ section#one-s23 {
 
 }
 
+#station-final{
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 15%;
+}
+#bravo{
+	position: absolute;
+	margin-left: -2%;
+	margin-top: 18%;
+	width: 15%;
+}
+
 #panneau{
   float: right;
   margin-right: 10%;
