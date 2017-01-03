@@ -443,7 +443,9 @@ section#one-s17{
 }
 
 #texte-s17 {
-  font-size:2.5em;
+  font-size:2em;
+	white-space: nowrap;
+
 }
 
 @keyframes rotate {
@@ -588,7 +590,6 @@ section#one-s22 {
 
 }
 #planete1-s22 {
-	margin-top: -600px;
   margin-left: -1400px;
 	width:97%;
 }
