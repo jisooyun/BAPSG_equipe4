@@ -466,7 +466,7 @@ var Fade20alien2 = new ScrollMagic.Scene({
 
 var controller21 = new ScrollMagic.Controller();
 
-var ZoomPlanet = TweenLite.fromTo("#planete-s21", 1, {scale:1}, {scale:3, rotation:-25, ease:Power3.easeInOut})
+var ZoomPlanet = TweenLite.fromTo("#planete-s21", 1, {scale:1}, {scale:3, rotation:-25, ease:Power4.easeOutIn})
 
 var ZoomPlanete = new ScrollMagic.Scene({
     triggerElement: "#one-s21",

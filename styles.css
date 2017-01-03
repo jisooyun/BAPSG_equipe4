@@ -209,6 +209,7 @@ section#one-s16 {
   margin-left: 90%;
   margin-top: 30%;
   width:80%;
+  position:absolute;
 }
 
 .control-s16{
@@ -402,8 +403,7 @@ section#one-s22 {
 
 }
 #planete1-s22 {
-  margin-left: -1800px;
-  margin-top: 300px;
+  margin-left: -800px;
 }
 
 #texte-s22 {
