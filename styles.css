@@ -239,14 +239,13 @@ section#one-s17{
 
 #planete1-s17{
   float: left;
-  margin-top: 225px;
-  width: 50%;
-  animation: rotate 300s infinite;
+  margin-top: 100px;
+  margin-left: -300px;
+  width: 60%;
 }
 
 #planete2-s17{
   margin-left: 400px;
-  margin-top: 100px;
   animation: rotate 100s infinite;
   width: 8%
 }
@@ -259,6 +258,8 @@ section#one-s17{
 
 #texte-s17 {
   font-size:3em;
+  margin-right: 200px;
+
 }
 
 @keyframes rotate {
@@ -323,14 +324,14 @@ section#one-s20 {
 
 #planete1-s20{
   animation: rotate 60s infinite;
-  margin-left: 550px;
+  margin-left: 460px;
 }
 
 #planete2-s20{
   margin-left: 15px;
   margin-top: 300px;
   padding-bottom: 100px;
-  margin-left: 100px;
+  margin-left: 50px;
   animation: rotate 60s infinite;
 }
 
