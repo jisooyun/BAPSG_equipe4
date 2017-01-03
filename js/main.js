@@ -28,7 +28,7 @@ $("section").each(function() {
 
 var controller13 = new ScrollMagic.Controller();
 
-var DeplacementControler13 = TweenLite.fromTo("#fusee-s13", 1, {x: 310, y: -130}, {x: -400, y: -200, ease:Power1.easeInOut})
+var DeplacementControler13 = TweenLite.fromTo("#fusee-s13", 1, {x: 310, y: -170}, {x: -600, y: -200, ease:Power1.easeInOut})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s13",
@@ -83,6 +83,37 @@ var Aterrisage = new ScrollMagic.Scene({
 
 .setTween(DeplacementControler13people2)
 .addTo(controller13people2);
+
+//_______________ SLIDE 99 ____________________________________________________________________________________________
+
+var controller99 = new ScrollMagic.Controller();
+
+var DeplacementFusee991 = TweenLite.fromTo("#fusee", 1, {rotation: 60, x: 150}, {rotation: 0, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s99",
+    duration: $(window).height(),
+    triggerHook: 0
+})
+
+.setTween(DeplacementFusee991)
+.addTo(controller99);
+
+// ____________________________________________________________________________________________________________________
+
+
+var controller99 = new ScrollMagic.Controller();
+
+var DeplacementFusee992 = TweenLite.fromTo("#fusee", 1, {x: 150}, {rotation: -20, scale: 0.1, y: -290, x: 50, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#two-s99",
+    duration: $(window).height(),
+    triggerHook: 0
+})
+
+.setTween(DeplacementFusee992)
+.addTo(controller99);
 
 //_______________ SLIDE 14 ____________________________________________________________________________________________
 
@@ -581,7 +612,7 @@ var ZoomPlanete = new ScrollMagic.Scene({
 
 var controller22 = new ScrollMagic.Controller();
 
-var DeplacementControler22 = TweenLite.fromTo("#fusee-s22", 1, {x: 500, y: -1000}, {x: -500, y: 230, ease: Linear.easeNone})
+var DeplacementControler22 = TweenLite.fromTo("#fusee-s22", 1, {x: 1000, y: -350}, {x: 0, y: -200, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s22",
@@ -597,7 +628,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller22 = new ScrollMagic.Controller();
 
-var DeplacementControler22 = TweenLite.fromTo("#texte-s22", 1, {x: 1000}, {x: 0, ease: Linear.easeNone})
+var DeplacementControler22 = TweenLite.fromTo("#texte-s22", 1, {x: 1400}, {x: 0, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s22",
@@ -733,7 +764,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller23bis = new ScrollMagic.Controller();
 
-var DeplacementAstro = TweenLite.fromTo("#astronaute-s23", 1, { opacity: 0, y: 350, x: -100}, { opacity: 1, y: 0, x:0, ease: Linear.easeNone})
+var DeplacementAstro = TweenLite.fromTo("#astronaute-s23", 1, { opacity : 0, y: 350, x: 900}, { opacity: 1, y: 0, x:0, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#two-s23",
@@ -748,7 +779,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller23bis = new ScrollMagic.Controller();
 
-var DeplacementAstro = TweenLite.fromTo("#astronaute-s23", 1, { y: 0, x:0}, { y: 350, x:100, ease: Linear.easeNone})
+var DeplacementAstro = TweenLite.fromTo("#astronaute-s23", 1, { y: 0, x:0}, { y: 250, x:-200, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#three-s23",
@@ -758,3 +789,17 @@ var Aterrisage = new ScrollMagic.Scene({
 
 .setTween(DeplacementAstro)
 .addTo(controller23bis);
+
+
+var controller23 = new ScrollMagic.Controller();
+
+var DeplacementFusee = TweenLite.fromTo("#panneau", 1, { opacity: 0, y: -500}, { opacity: 1, y: 300, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#five-s23",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementFusee)
+.addTo(controller23);
