@@ -573,7 +573,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller20alien1 = new ScrollMagic.Controller();
 
-var FadePlanet20alien1 = TweenLite.fromTo("#alien1-s20", 1, {x:0, opacity: 0}, {opacity:0.95, ease:Power1.easeInOut})
+var FadePlanet20alien1 = TweenLite.fromTo("#alien1-s20", 1, {x:0, opacity: 0}, {opacity: 0.76, ease:Power1.easeInOut})
 
 var Fade20alien1 = new ScrollMagic.Scene({
     triggerElement: "#one-s20",
