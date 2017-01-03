@@ -86,7 +86,8 @@ section {
 
 section#one-s13 {
   background-image: url("img/background-slide13.png");
-  background-size: cover;
+  background-size: 95%;
+  background-repeat: no-repeat;
 }
 
 #texte-s13 {
