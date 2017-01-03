@@ -102,6 +102,104 @@ width: 15%;
 width: 15%;
 }
 
+/* SLIDE 99 */
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: scale(1);
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: scale(0.75);
+    transform: rotate(12deg);
+  }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotateP {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+section#one-s99 {
+  background: url("./img/slide99/space-bg.png") fixed no-repeat;
+  background-size: cover;
+}
+
+section#two-s99 {
+  opacity:0;
+}
+
+section#three-s99 {
+  opacity:0;
+}
+
+#fusee img{
+  width:12%;
+  height:auto;
+  padding-top:12%;
+}
+
+#fusee2 img{
+  width:12%;
+  height:auto;
+  padding-top:12%;
+  float:left;
+}
+
+#fusee3 img{
+  width:12%;
+  height:auto;
+  padding-top:12%;
+  float:right;
+}
+
+#planete1 img{
+  padding-top:4%;
+  padding-left:4%;
+  width:20%;
+  height:auto;
+  bottom:50%;
+  float:left;
+  animation-name:rotate;
+  animation-duration:45s;
+  animation-iteration-count: infinite;
+}
+#planete2 img{
+  padding-top:3%;
+  width:20%;
+  height:auto;
+  bottom:50%;
+  float:right;
+  animation-name:rotateP;
+  animation-duration:60s;
+  animation-iteration-count: infinite;
+}
+#planete3 img{
+  padding-left:16%;
+  padding-top:2%;
+  width:13%;
+  height:auto;
+  bottom:50%;
+  animation-name:move;
+  animation-duration:25s;
+  animation-iteration-count: infinite;
+}
 
 /* SLIDE 14 */
 
@@ -496,6 +594,11 @@ section#one-s23 {
   margin-top: 60px;
   opacity: 0;
 
+}
+
+#panneau{
+  float: right;
+  margin-right: 10%;
 }
 
 #nuage1{
