@@ -751,3 +751,17 @@ var Aterrisage = new ScrollMagic.Scene({
 
 .setTween(DeplacementAstro)
 .addTo(controller23bis);
+
+
+var controller23 = new ScrollMagic.Controller();
+
+var DeplacementFusee = TweenLite.fromTo("#panneau", 1, { opacity: 0, y: -500}, { opacity: 1, y: 300, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#five-s23",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementFusee)
+.addTo(controller23);

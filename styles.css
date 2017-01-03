@@ -501,6 +501,11 @@ section#one-s23 {
 
 }
 
+#panneau{
+  float: right;
+  margin-right: 10%;
+}
+
 #nuage1{
   width: 50px;
   float: left;
