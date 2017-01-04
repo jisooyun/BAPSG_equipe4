@@ -133,6 +133,20 @@ var Aterrisage = new ScrollMagic.Scene({
 .setTween(DeplacementFusee994)
 .addTo(controller99);
 
+// ____________________________________________________________________________________________________________________
+
+var DeplacementTexte14 = TweenLite.fromTo("#texte-s99", 1, {x: 1600}, {x: 0, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s99",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementTexte14)
+.addTo(controller99);
+
+
 //_______________ SLIDE 14 ____________________________________________________________________________________________
 
 var controller14 = new ScrollMagic.Controller();
@@ -311,10 +325,10 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller16quatre = new ScrollMagic.Controller();
 
-var DeplacementTexte16bis = TweenLite.fromTo("#texte2-s16", 1, {x: 1600}, {x: 0, ease: Linear.easeNone})
+var DeplacementTexte16bis = TweenLite.fromTo("#texte2-s16", 1, {x: 1600}, {x: -350, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
-    triggerElement: "#three-s16",
+    triggerElement: "#two-s16",
     duration: $(window).height(),
     triggerHook: 0,
 })
@@ -566,6 +580,19 @@ var meteorites = new ScrollMagic.Scene({
 
 .setTween(DeplacementIt4)
 .addTo(controller19);
+
+// ____________________________________________________________________________________________________________________
+
+var DeplacementTexte19 = TweenLite.fromTo("#texte-s19", 1, {x: 1600}, {x: 0, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#two-s19",
+    duration: $(window).height(),
+    triggerHook: 0,
+})
+
+.setTween(DeplacementTexte19)
+.addTo(controller13);
 
 
 //_______________ SLIDE 20 _____________________________________________________________________________________________

@@ -24,6 +24,7 @@ h1 {
 }
 
 p {
+  font-size: 2.5em;
   text-align: center;
   color: white;
 }
@@ -76,6 +77,7 @@ section {
 /* SLIDE 13 */
 
 section#one-s13 {
+  height: 100vh !important;
   background-image: url("img/background-slide13.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,6 +134,7 @@ width: 15%;
     transform: rotate(-360deg);
   }
 }
+
 section#one-s99 {
   background: url("./img/slide99/space-bg.png") fixed no-repeat;
   background-size: cover;
@@ -143,6 +146,10 @@ section#two-s99 {
 
 section#three-s99 {
   opacity:0;
+}
+
+#texte-s99 {
+  padding-top: 5vh;
 }
 
 #fusee img{
@@ -390,11 +397,11 @@ section#one-s15 {
 }
 
 #texte1-s16 {
-  margin-top: 1vh;
+  padding-top: 3vh;
 }
 
 #texte2-s16 {
-  margin-top: 80vh;
+  margin-top: 70vh;
 }
 
 section#one-s16 {
@@ -461,7 +468,8 @@ section#one-s17{
 }
 
 #texte-s17 {
-  font-size:2em;
+  padding-top: 5vh;
+  font-size:2.5em;
 	white-space: nowrap;
 
 }
@@ -519,6 +527,11 @@ section#one-s19 {
   width:150px;
 }
 
+#texte-s19 {
+  margin-top: 20vh;
+  font-size: 2.5em;
+}
+
 /* SLIDE 20 */
 
 section#one-s20 {
@@ -574,7 +587,11 @@ section#one-s21 {
 
 #planete-s21{
   width:20%;
-  margin-top: 240px;
+  margin-top: 10vh;
+}
+
+#texte-s21 {
+  padding-top: 10vh;
 }
 
 /* SLIDE 22 */
@@ -604,12 +621,11 @@ section#one-s22 {
 }
 #planete1-s22 {
   margin-left: -1400px;
-	width:97%;
+	width:90%;
 }
 
 #texte-s22 {
-  font-size: 2.5em;
-
+  padding-top: 5vh;
 }
 /* SLIDE 23 */
 
