@@ -77,7 +77,6 @@ section {
 /* SLIDE 13 */
 
 section#one-s13 {
-  height: 100vh !important;
   background-image: url("img/background-slide13.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -413,8 +412,8 @@ section#one-s16 {
 #espace-s16{
   opacity:0;
   text-align:center;
-  margin-top:60px;
-  margin-left:10%;
+  margin-top:5vh;
+  margin-left:10vw;
   height: 500px;
   width: 500px;
   float:left;
@@ -422,8 +421,6 @@ section#one-s16 {
 
 #espace-s16 img{
   margin-left: 10vw;
-  margin-top: 5vh;
-  width:80%;
   position:absolute;
 }
 

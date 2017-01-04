@@ -325,7 +325,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller16quatre = new ScrollMagic.Controller();
 
-var DeplacementTexte16bis = TweenLite.fromTo("#texte2-s16", 1, {x: 1600}, {x: -350, ease: Linear.easeNone})
+var DeplacementTexte16bis = TweenLite.fromTo("#texte2-s16", 1, {x: 1600}, {x: 0, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#two-s16",
