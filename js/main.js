@@ -621,7 +621,7 @@ var DeplacementControler22 = TweenLite.fromTo("#fusee-s22", 1, {x: 1000, y: -350
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s22",
-    duration: $(window).height(),
+    duration: 4*$(window).height(),
     triggerHook: 0,
 })
 
