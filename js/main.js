@@ -112,7 +112,7 @@ var Aterrisage = new ScrollMagic.Scene({
 var DeplacementFusee993 = TweenLite.fromTo("#fusee1-s99", 1, {y: 1200}, {scale: 0.5, y: -300, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
-    triggerElement: "#one-s13",
+    triggerElement: "#one-s99",
     duration:6*$(window).height(),
     triggerHook: 0,
 })
@@ -125,7 +125,7 @@ var Aterrisage = new ScrollMagic.Scene({
 var DeplacementFusee994 = TweenLite.fromTo("#fusee2-s99", 1, {x: 200, y: 1200}, {scale: 0.5, y: -300, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
-    triggerElement: "#one-s13",
+    triggerElement: "#one-s99",
     duration:6*$(window).height(),
     triggerHook: 0,
 })
