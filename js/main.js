@@ -220,6 +220,20 @@ var Aterrisage = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
+var DeplacementFusee15 = TweenLite.fromTo("#fusee-s15", 1, {x: 0, y:0}, {x: -100, y: -700, ease: Linear.easeNone})
+
+var Aterrisage = new ScrollMagic.Scene({
+    triggerElement: "#one-s15",
+    duration: $(window).height(),
+    triggerHook: 0,
+    
+})
+
+.setTween(DeplacementFusee15)
+.addTo(controller15);
+
+// ____________________________________________________________________________________________________________________
+
 var FadeTxt15sld15 = TweenLite.fromTo("#txt2-s15", 1, {x:0, opacity: 0}, {opacity:0.95, delay: 4, ease:Power1.easeInOut})
 
 var Fade20alien2 = new ScrollMagic.Scene({
