@@ -573,34 +573,16 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller20alien1 = new ScrollMagic.Controller();
 
-var FadePlanet20alien1 = TweenLite.fromTo("#alien1-s20", 1, {x:0, opacity: 0}, {opacity: 0.76, ease:Power1.easeInOut})
+var ApparitionAlien1 = TweenLite.fromTo("#alien1-s20", 0.5, {x: 500, y:1}, {x: 150, y: -20, ease:Power1.easeInOut})
 
-var Fade20alien1 = new ScrollMagic.Scene({
+var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s20",
     duration: $(window).height(),
-    offset: -10,
     triggerHook: 0,
 })
 
-.setTween(FadePlanet20alien1)
+.setTween(ApparitionAlien1)
 .addTo(controller20alien1);
-
-//_______________________________________________________________________________________________________________________
-
-var controller20alien2 = new ScrollMagic.Controller();
-
-var FadePlanet20alien2 = TweenLite.fromTo("#alien2-s20", 1, {x:0, opacity: 0}, {opacity:0.95, ease:Power1.easeInOut})
-
-var Fade20alien2 = new ScrollMagic.Scene({
-    triggerElement: "#one-s20",
-    duration: $(window).height(),
-    offset: -10,
-    triggerHook: 0,
-})
-
-.setTween(FadePlanet20alien2)
-.addTo(controller20alien2);
-
 
 // ______________ SLIDE 21 ______________________________________________________________________________________________
 

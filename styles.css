@@ -532,16 +532,17 @@ section#one-s20 {
 
 #alien1-s20 {
   position: absolute;
-  margin-top: -82vh;
-  margin-left: -5vw;
+  margin-top: 40vh;
+  margin-left: 40vw;
   width: 40%;
+  z-index: -10;
 }
 
 #alien2-s20 {
   position: absolute;
   width: 5vw;
-  margin-top: -70vh;
-  margin-left: -15vw;
+  margin-top: -60vh;
+  margin-left: -10vw;
   animation: rotate_g 10s infinite;
 }
 
