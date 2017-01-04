@@ -615,6 +615,12 @@ section#one-s23 {
     background-size: cover;
 }
 
+#texte-s23{
+	position: absolute;
+   margin-left:30%;
+	font-size: 2.2em;
+}
+
 #fusee-s23{
   width: 400px;
   float: left;
@@ -635,8 +641,8 @@ section#one-s23 {
 #station-final{
 	position: absolute;
 	margin-left: 10%;
-	margin-top: 10%;
-	width: 15%;
+	margin-top: 12%;
+	width: 10%;
 }
 #bravo{
 	position: absolute;
