@@ -251,6 +251,23 @@ section#one-s14 {
   z-index: 3000;
 }
 
+#bul3{
+	position: absolute;
+  width: 25%;
+  margin-top: 10%;	
+  left: 10%;
+  z-index: 3000;
+}
+
+#bul4{
+	position: absolute;
+  width: 25%;
+  margin-top: 1%;
+	margin-left: 48%;
+  left: 10%;
+  z-index: 3000;
+}
+
 /* SLIDE 15 */
 
 section#one-s15 {
