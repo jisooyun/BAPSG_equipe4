@@ -262,6 +262,14 @@ section#one-s14 {
   z-index: 3000;
 }
 
+#bul5{
+	position: absolute;
+  width: 25%;
+ bottom: 7%;
+	left:37%;
+  z-index: 3000;
+}
+
 /* SLIDE 15 */
 
 section#one-s15 {
