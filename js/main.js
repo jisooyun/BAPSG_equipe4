@@ -220,8 +220,6 @@ var Aterrisage = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-var controllersld15 = new ScrollMagic.Controller();
-
 var FadeTxt15sld15 = TweenLite.fromTo("#txt2-s15", 1, {x:0, opacity: 0}, {opacity:0.95, delay: 4, ease:Power1.easeInOut})
 
 var Fade20alien2 = new ScrollMagic.Scene({
@@ -233,22 +231,7 @@ var Fade20alien2 = new ScrollMagic.Scene({
 })
 
 .setTween(FadeTxt15sld15)
-.addTo(controllersld15);
-
-var controller99 = new ScrollMagic.Controller();
-
-var FadeTxtbul5sld99 = TweenLite.fromTo("#bul5", 1, {x:0, opacity: 0}, {opacity:0.95, ease:Power1.easeInOut})
-
-var Fade99bul5 = new ScrollMagic.Scene({
-    triggerElement: "#three-s99",
-    duration: $(window).height(),
-    offset: -10,
-    triggerHook: 0,
-	
-})
-
-.setTween(FadeTxt15sld15)
-.addTo(controller99);
+.addTo(controller15);
 
 // ____________________________________________________________________________________________________________________
 

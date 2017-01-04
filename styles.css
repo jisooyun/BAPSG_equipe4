@@ -286,15 +286,15 @@ section#one-s15 {
 }
 
 #fusee-s15{
-  position: fixed;
-  z-index: 100;
-  margin-top: 60px;
-  margin-right: 60%;
-  animation: rotate_f 10s infinite;
+  position: absolute;
+  margin-top: 80vh;
+  margin-right: 40vw;
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
 }
 
 #fusee-s15 img{
-  width: 130%;
+  width: 800px;
 }
 
 #control-s15 {
