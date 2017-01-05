@@ -29,7 +29,7 @@ $("section").each(function() {
 
 var controller13 = new ScrollMagic.Controller();
 
-var DeplacementControler13 = TweenLite.fromTo("#fusee-s13", 1, {x: 310, y: -170}, {x: -600, y: -200, ease:Power1.easeInOut})
+var DeplacementControler13 = TweenLite.fromTo("#fusee-s13", 1, {x: 410, y: 200}, {x: 0, y: -200, ease:Power1.easeInOut})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s13",
