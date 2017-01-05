@@ -29,7 +29,7 @@ $("section").each(function() {
 
 var controller13 = new ScrollMagic.Controller();
 
-var DeplacementControler13 = TweenLite.fromTo("#fusee-s13", 1, {x: 410, y: 200}, {x: 0, y: -200, ease:Power1.easeInOut})
+var DeplacementControler13 = TweenLite.fromTo("#fusee-s13", 1, {x: 410, y: 200}, {x: 0, y: -50, ease:Power1.easeInOut})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#one-s13",
@@ -166,7 +166,7 @@ var Aterrisage = new ScrollMagic.Scene({
 
 var controller14onde = new ScrollMagic.Controller();
 
-var Onde = TweenLite.fromTo("#onde", 1, {x:-400, y:280, opacity:0, rotation:0}, {rotation:15, x:-100, opacity:1, ease: Linear.easeNone})
+var Onde = TweenLite.fromTo("#onde", 1, {x:-400, y:280, opacity:0, rotation:0}, {rotation:15, x:50, opacity:1, ease: Linear.easeNone})
 
 var dispersion = new ScrollMagic.Scene({
     triggerElement: "#one-s14",
@@ -179,7 +179,7 @@ var dispersion = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-var Onde1 = TweenLite.fromTo("#onde", 1, {x:-100}, {opacity:0, ease: Linear.easeNone})
+var Onde1 = TweenLite.fromTo("#onde", 1, {x:50}, {opacity:0, ease: Linear.easeNone})
 
 var dispersion = new ScrollMagic.Scene({
     triggerElement: "#two-s14",
@@ -192,7 +192,7 @@ var dispersion = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-var Onde2 = TweenLite.fromTo("#onde", 1, {x:-400, y:280, opacity:0, rotation:0}, {rotation:15, x:-100, opacity:1, ease: Linear.easeNone})
+var Onde2 = TweenLite.fromTo("#onde", 1, {x:-400, y:280, opacity:0, rotation:0}, {rotation:15, x:50, opacity:1, ease: Linear.easeNone})
 
 var dispersion = new ScrollMagic.Scene({
     triggerElement: "#three-s14",
@@ -205,7 +205,7 @@ var dispersion = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-var Onde3 = TweenLite.fromTo("#onde", 1, {x:-100}, {opacity:0, ease: Linear.easeNone})
+var Onde3 = TweenLite.fromTo("#onde", 1, {x:50}, {opacity:0, ease: Linear.easeNone})
 
 var dispersion = new ScrollMagic.Scene({
     triggerElement: "#four-s14",
@@ -583,7 +583,7 @@ var meteorites = new ScrollMagic.Scene({
 
 // ____________________________________________________________________________________________________________________
 
-var DeplacementTexte19 = TweenLite.fromTo("#texte-s19", 1, {x: 1600}, {x: 0, ease: Linear.easeNone})
+var DeplacementTexte19 = TweenLite.fromTo("#texte-s19", 1, {x: 1600}, {x: 0, y:-670, ease: Linear.easeNone})
 
 var Aterrisage = new ScrollMagic.Scene({
     triggerElement: "#two-s19",
@@ -592,7 +592,7 @@ var Aterrisage = new ScrollMagic.Scene({
 })
 
 .setTween(DeplacementTexte19)
-.addTo(controller13);
+.addTo(controller19);
 
 
 //_______________ SLIDE 20 _____________________________________________________________________________________________
