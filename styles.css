@@ -28,7 +28,7 @@ h1 {
 }
 
 p {
-  font-size: 2.5em;
+  font-size: 40px !important;
   text-align: center;
   color: white;
 }
@@ -237,7 +237,7 @@ section#one-s14 {
 }
 
 #texte-s14 {
-  font-size: 2.5em;
+  font-size: 3em;
 	padding-top: 50px;
 }
 
@@ -397,7 +397,7 @@ section#one-s15 {
 }
 
 #texte1-s16, #texte2-s16 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 #texte1-s16 {
@@ -471,7 +471,7 @@ section#one-s17{
 
 #texte-s17 {
   padding-top: 5vh;
-  font-size:2.5em;
+  font-size:3em;
 	white-space: nowrap;
 
 }
@@ -499,11 +499,11 @@ section#one-s18 {
 }
 
 #texte1-s18{
-  font-size:2.5em;
+  font-size:3em;
 }
 
 #texte2-s18{
-  font-size:2.5em;
+  font-size:3em;
 }
 
 /* SLIDE 19 */
@@ -534,7 +534,7 @@ section#one-s19 {
 
 #texte-s19 {
   margin-top: 20vh;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 /* SLIDE 20 */
